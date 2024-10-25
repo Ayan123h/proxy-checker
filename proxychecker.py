@@ -6,7 +6,7 @@ timeout = aiohttp.ClientTimeout(total=15.0)
 
 urls = (
 	"https://api.proxyscrape.com?request=displayproxies&proxytype=socks5&timeout=5000",
-	"https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/socks5.txt"
+	"https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks5.txt"
 )
 
 async def fetch_proxies():
